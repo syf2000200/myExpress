@@ -1,4 +1,4 @@
 # myExpress
 
-start 
-"DEBUG=myExpress:* npm start"
+start: 
+"$ DEBUG=myExpress:* npm start"
