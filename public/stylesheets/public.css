@@ -1,0 +1,236 @@
+/*====== 初始化设置 ======*/
+body,div,p,table,td,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,form,input,button {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+ul,ol,li{
+	list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+
+/*====== 文字设置 ======*/
+.txt-c{
+	text-align: center;
+}
+.txt-r{
+	text-align: right;
+}
+.txt-l{
+	text-align: left;
+}
+
+/*====== 宽度 ======*/
+.width1100{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+/*====== 栅格 ======*/
+.column{
+	float: left;
+	position: relative;
+}
+.col-12 {
+    width: 100%
+}
+
+.col-11 {
+    width: 91.66666667%
+}
+
+.col-10 {
+    width: 83.33333333%
+}
+
+.col-9 {
+    width: 75%
+}
+
+.col-8 {
+    width: 66.66666667%
+}
+
+.col-7 {
+    width: 58.33333333%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-5 {
+    width: 41.66666667%
+}
+
+.col-4 {
+    width: 33.33333333%
+}
+
+.col-3 {
+    width: 25%
+}
+
+.col-2 {
+    width: 16.66666667%
+}
+
+.col-1 {
+    width: 8.33333333%
+}
+
+/*====== 通用组件 ======*/
+.arrowdown{
+	width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #fff;
+    position: absolute;
+    right: 4px;
+    top: 17px;
+}
+.arrowup{
+	width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    right: 4px;
+    top: 14px;
+}
+
+/*====== 顶部导航 ======*/
+.topnav, .topnav>div{
+	background: #333;
+	height: 36px;
+}
+.topnav>div>div, .topnav>div>div a{
+	color: #ebebeb;
+	line-height: 36px;
+}
+.topnav>div>div a:hover{
+	color: #fff;
+	text-shadow:0 0 1px #fff;
+}
+.topnav ul{
+	float: right;
+}
+.topnav ul li{
+	float: left;
+	line-height: 36px;
+	font-size: 12px;
+	padding: 0 8px;
+}
+.topnav div p{
+	padding-left: 10px;
+	line-height: 36px;
+}
+.topnav ul li.mobile a, .topnav ul li.weichart a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 3px;
+}
+
+/*====== 头部菜单 ======*/
+.headerwrap{
+	background: #e43b3e;
+	height: 74px;
+}
+.logo{
+	margin-top: 10px;
+}
+.navbar{
+	margin-top: 18px;
+}
+.navbar ul{
+	margin-left: 50px;
+}
+.navbar ul li{
+	float: left;
+	width: 90px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 10px;
+	position: relative;
+}
+.navbar ul li>a{
+	color: #fff;
+	display: block;
+	border-radius: 5px;
+}
+.navbar ul li>a:hover, .navbar ul li.highlight>a{
+	background: #333;
+}
+.navbar ul li.active>a{
+	color: #e43b3e;
+	background: #fff;
+}
+.navbar ul li dl{
+	width: 140px;
+	position: absolute;
+	background: #333;
+	top: 30px;
+	left: 0;
+	text-align: left;
+	padding: 10px 0;
+	border-radius: 3px;
+}
+.navbar ul li dl a{
+	color: #ebebeb;
+	line-height: 40px;
+	display: block;
+	padding-left: 15px;
+}
+.navbar ul li dl a:hover{
+	background: #e43b3e;
+}
+.account{
+	text-align: right;
+}
+.account>div{
+	float: right;
+	width: 194px;
+}
+.account span{
+	line-height: 74px;
+	margin-right: 40px;
+}
+.account span a{
+	color: #fff;
+}
+.account img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 16px 0 0 30px;
+	border-radius: 50%;
+}
