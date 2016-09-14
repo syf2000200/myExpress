@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>index</title>
 	<link rel="stylesheet" href="../stylesheets/public.css">
-	<link rel="stylesheet" href="../stylesheets/style.css">
+	<link rel="stylesheet" href="../stylesheets/index.css">
 </head>
 <body>
 	<div class="container">
@@ -30,13 +30,13 @@
 			<div class="headerwrap">
 				<div class="width1100">
 					<div class="column col-3 logo">
-						<a href=""><img src="../images/logo.png"></a>
+						<a href=""></a>
 					</div>
 					<div class="column col-6 navbar">
 						<ul>
 							<li class="active"><a href="">首页</a></li>
-							<li><a href="">千金理财</a></li>
-							<li><a href="">千金借</a></li>
+							<li><a href="">我的理财</a></li>
+							<li><a href="">我的借贷</a></li>
 							<li><a href="">新手指引</a></li>
 							<li class="aboutus">
 								<a href="">关于我们</a>
@@ -62,7 +62,27 @@
 			
 		</div>
 		<div class="main">
-			<div class="banner"></div>
+			<div class="banner swiper-container">
+				<div class="bannerwrap">
+					<div class="bannerslide swiper-slide">
+						<a href="">Slide1</a>
+					</div>
+					<div class="bannerslide swiper-slide">
+						<a href="">Slide2</a>
+					</div>
+					<div class="bannerslide swiper-slide">
+						<a href="">Slide3</a>
+					</div>
+					<div class="bannerslide swiper-slide">
+						<a href="">Slide4</a>
+					</div>
+					<div class="bannerslide swiper-slide">
+						<a href="">Slide5</a>
+					</div>
+				</div>
+				<!--banner页码-->
+				<div class="bannerpagination swiper-pagination"></div>
+			</div>
 			<div class="bannerlist"></div>
 			<div class="notice"></div>
 			<div class="content"></div>
@@ -70,6 +90,7 @@
 		<div class="footer"></div>
 	</div>
 	<script src="../javascripts/jquery1.11.1.min.js"></script>
+	<script src="../javascripts/swiper-3.3.1.jquery.min.js"></script>
 	<script src="../javascripts/main.js"></script>
 </body>
 </html>
