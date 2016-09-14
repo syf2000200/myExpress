@@ -13,3 +13,15 @@ function tab(btn,obj,iclass){
 $(function(){
 	tab('.aboutus','.dropdown','highlight');
 })
+
+//首页轮播banner
+var swiper = new Swiper('.banner', {
+	wrapperClass : 'bannerwrap',
+	effect: 'fade',
+    pagination: '.bannerpagination',
+    paginationClickable: true,
+    autoplay: 2500,
+    autoplayDisableOnInteraction: false,
+    loop: true,
+    setWrapperSize: true
+});
